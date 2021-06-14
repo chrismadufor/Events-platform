@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Select User To Process</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav id="nav">
+        <div class="nav-wrap">
+          <h3>Admin Dashboard</h3>
+          <div class="links">
+            <ul>
+              <a href="comms.html"><li>comms</li></a>
+              <a href="tts.html"><li>tts</li></a>
+              <a href="ums"><li>ums</li></a>
+              <a href="moderators.html"><li>moderate</li></a>
+              <a href="analytics.html"><li>analytics</li></a>
+              <a href="index.html" class="extra"><li>Back home</li></a>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="main-wrapper">
+          <div class="title-bar">
+            <div id="menu-icon">
+              <div class="bar" id="bar" onclick="lockScroll();"></div>
+            </div>
+            <h2>User&nbsp; Processor</h2>
+          </div>
+          <div class="search-container">
+            <div class="search-bar">
+              <div class="filter"><span>Filter</span></div>
+              <input
+                type="text"
+                class="search-box"
+                placeholder="Filter Search"
+              />
+            </div>
+            <button class="search-button">Search</button>
+          </div>
+          <div class="table column">
+            <div class="table-row row plain-bg">
+              <div class="user-block row">
+                <h4 class="uppercase img-block">Image</h4>
+                <h4 class="uppercase id-block">User ID</h4>
+              </div>
+              <div class="long-row">
+                <h4 class="uppercase">Full name</h4>
+              </div>
+              <div class="edit-options">
+                <h4 class="uppercase">Process</h4>
+              </div>
+            </div>
+            <div class="table-row row light-bg">
+              <div class="user-block row">
+                <div class="process-image img-block">
+                  <img src="img/p1.jpg" alt="" />
+                </div>
+                <p class="id-block">00050</p>
+              </div>
+              <div class="long-row">
+                <p>First Name Middle Name Last Name</p>
+              </div>
+              <div class="edit-options">
+                <div class="edit-box primary-color">
+                  <i class="fa fa-pencil"></i>
+                </div>
+              </div>
+            </div>
+            <div class="table-row row light-bg">
+              <div class="user-block row">
+                <div class="process-image img-block">
+                  <img src="img/p2.jpg" alt="" />
+                </div>
+                <p class="id-block">00051</p>
+              </div>
+              <div class="long-row">
+                <p>First Name Middle Name Last Name</p>
+              </div>
+              <div class="edit-options">
+                <div class="edit-box primary-color">
+                  <i class="fa fa-pencil"></i>
+                </div>
+              </div>
+            </div>
+            <div class="table-row row light-bg">
+              <div class="user-block row">
+                <div class="process-image img-block">
+                  <img src="img/p3.jpg" alt="" />
+                </div>
+                <p class="id-block">00052</p>
+              </div>
+              <div class="long-row">
+                <p>First Name Middle Name Last Name</p>
+              </div>
+              <div class="edit-options">
+                <div class="edit-box primary-color">
+                  <i class="fa fa-pencil"></i>
+                </div>
+              </div>
+            </div>
+            <div class="table-row row light-bg">
+              <div class="user-block row">
+                <div class="process-image img-block">
+                  <img src="img/p4.jpg" alt="" />
+                </div>
+                <p class="id-block">00053</p>
+              </div>
+              <div class="long-row">
+                <p>First Name Middle Name Last Name</p>
+              </div>
+              <div class="edit-options">
+                <div class="edit-box primary-color">
+                  <i class="fa fa-pencil"></i>
+                </div>
+              </div>
+            </div>
+            <div class="table-row row light-bg">
+              <div class="user-block row">
+                <div class="process-image img-block">
+                  <img src="img/p6.jpg" alt="" />
+                </div>
+                <p class="id-block">00055</p>
+              </div>
+              <div class="long-row">
+                <p>First Name Middle Name Last Name</p>
+              </div>
+              <div class="edit-options">
+                <div class="edit-box primary-color">
+                  <i class="fa fa-pencil"></i>
+                </div>
+              </div>
+            </div>
+            <div class="table-row row light-bg">
+              <div class="user-block row">
+                <div class="process-image img-block">
+                  <img src="img/p5.jpg" alt="" />
+                </div>
+                <p class="id-block">00054</p>
+              </div>
+              <div class="long-row">
+                <p>First Name Middle Name Last Name</p>
+              </div>
+              <div class="edit-options">
+                <div class="edit-box primary-color">
+                  <i class="fa fa-pencil"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

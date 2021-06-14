@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Create New Ticket</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav id="nav">
+        <div class="nav-wrap">
+          <h3>Admin Dashboard</h3>
+          <div class="links">
+            <ul>
+              <a href="comms.html"><li>comms</li></a>
+              <a href="tts.html"><li>tts</li></a>
+              <a href="ums.html"><li>ums</li></a>
+              <a href="moderators.html"><li>moderate</li></a>
+              <a href="analytics.html"><li>analytics</li></a>
+              <a href="index.html" class="extra"><li>Back home</li></a>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="main-wrapper">
+          <div class="title-bar">
+            <div id="menu-icon">
+              <div class="bar" id="bar" onclick="lockScroll();"></div>
+            </div>
+            <h2>Create &nbsp; Ticket</h2>
+          </div>
+          <section>
+            <div class="message-section">
+              <h2 class="uppercase">Ticket Target</h2>
+              <div class="user-section">
+                <img src="img/p8.jpg" alt="" class="user-image" />
+                <div class="user-info">
+                  <p class="uppercase">Precious Ebubechukwu Chikezie</p>
+                  <p class="uppercase bold">Digital Department</p>
+                  <p>DD 02</p>
+                  <button class="target-btn">SELECT USER</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="message-section column">
+              <h3>Title</h3>
+              <input type="text" placeholder="Select type of request" />
+              <h3>First Message</h3>
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Describe the request"
+              ></textarea>
+              <div class="que">
+                <h3 class="uppercase">Que</h3>
+                <input type="text" />
+                <button class="verify-btn">Create Event</button>
+              </div>
+              <div class="schedule-message column bold">
+                <p>Schedule for message?</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Create AD/Event</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav id="nav">
+        <div class="nav-wrap">
+          <h3>Admin Dashboard</h3>
+          <div class="links">
+            <ul>
+              <a href="comms.html"><li>comms</li></a>
+              <a href="tts.html"><li>tts</li></a>
+              <a href="ums.html"><li>ums</li></a>
+              <a href="moderators.html"><li>moderate</li></a>
+              <a href="analytics.html"><li>analytics</li></a>
+              <a href="index.html" class="extra"><li>Back home</li></a>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="main-wrapper">
+          <div class="title-bar">
+            <div id="menu-icon">
+              <div class="bar" id="bar" onclick="lockScroll();"></div>
+            </div>
+            <h2>events&nbsp;/&nbsp;ads</h2>
+          </div>
+          <section>
+            <div class="event-section">
+              <h2 class="uppercase">Event/Ad Info</h2>
+              <!-- pd stands for padding -->
+              <div class="user-section section-pd">
+                <img src="img/p7.jpg" alt="" class="user-image event-image" />
+                <div class="section-info">
+                  <h4 class="uppercase">Event/Ad Image</h4>
+                  <button class="section-btn">Upload Image</button>
+                </div>
+              </div>
+              <div class="section-form">
+                <form action="">
+                  <div class="input-container">
+                    <label for="title">Title</label>
+                    <input type="text" class="title" />
+                  </div>
+                  <div class="input-container">
+                    <label for="duration">Duration</label>
+                    <input type="text" class="duration" />
+                  </div>
+                  <div class="input-container">
+                    <label for="publish-date">Publish Date</label>
+                    <input type="text" class="publish-date" />
+                  </div>
+                </form>
+                <div class="que">
+                  <h3 class="uppercase">Que</h3>
+                  <input type="text" />
+                  <button class="verify-btn">Create Event</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

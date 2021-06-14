@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ticket Tracking System</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav id="nav">
+        <div class="nav-wrap">
+          <h3>Admin Dashboard</h3>
+          <div class="links">
+            <ul>
+              <a href="comms.html"><li>comms</li></a>
+              <a href="tts.html"><li>tts</li></a>
+              <a href="ums.html"><li>ums</li></a>
+              <a href="moderators.html"><li>moderate</li></a>
+              <a href="analytics.html"><li>analytics</li></a>
+              <a href="index.html" class="extra"><li>Back home</li></a>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="main">
+        <div class="main-wrapper">
+          <div class="title-bar">
+            <div id="menu-icon">
+              <div class="bar" id="bar" onclick="lockScroll();"></div>
+            </div>
+            <h2>Ticket tracking system</h2>
+          </div>
+          <div class="boxes-container">
+            <div class="box box-shadow">
+              <div class="box-shape circle red"></div>
+              <a href="create-ticket.html"><h4>Create new ticket</h4></a>
+            </div>
+            <div class="box box-shadow">
+              <div class="box-shape circle lemon"></div>
+              <a href="tts-list.html"> <h4>All tickets</h4></a>
+            </div>
+            <div class="box box-shadow">
+              <div class="box-shape circle orange"></div>
+              <a href="tts-list.html"><h4>New tickets</h4></a>
+            </div>
+            <div class="box box-shadow">
+              <div class="box-shape circle blue"></div>
+              <a href="tts-list.html"><h4>Tickets assigned to me</h4></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

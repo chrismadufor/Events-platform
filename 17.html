@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ticket Timeline</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="menu-icon">
+        <div class="bar" id="bar" onclick="lockScroll();"></div>
+      </div>
+      <nav id="nav">
+        <div class="nav-wrap">
+          <h3>Admin Dashboard</h3>
+          <div class="links">
+            <ul>
+              <a href="comms.html"><li>comms</li></a>
+              <a href="tts.html"><li>tts</li></a>
+              <a href="ums.html"><li>ums</li></a>
+              <a href="moderators.html"><li>moderate</li></a>
+              <a href="analytics.html"><li>analytics</li></a>
+              <a href="index.html" class="extra"><li>Back home</li></a>
+            </ul>
+          </div>
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="main timeline">
+        <div class="side-nav column">
+          <button class="side-nav-btn white">Return to TTS List View</button>
+          <button class="side-nav-btn blue">Process Timeline</button>
+        </div>
+        <section class="main-body column">
+          <h2 class="uppercase">Ticket Timeline</h2>
+          <div class="ticket-details blue column">
+            <p>Request for Maintenance</p>
+            <p>00050</p>
+            <p>Thursday, January 3rd, 2020</p>
+          </div>
+          <div class="timeline-item row">
+            <div class="relative column">
+              <div class="timeline-number circle box-shadow column">
+                <p>1</p>
+              </div>
+              <div class="number-line blue"></div>
+            </div>
+            <div class="timeline-details column">
+              <div class="timeline-box box-shadow">
+                <p>
+                  Created By {Staff Name}, To Address {Ticket Title} For
+                  {Username}
+                </p>
+                <p class="timeline-time">12:00AM Thursday, January 3rd, 2020</p>
+              </div>
+              <div class="timeline-box box-shadow">
+                <p>1st Msg: What kind of maintenance does he want?</p>
+                <p class="timeline-time">1:00AM Thursday, January 3rd, 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item row">
+            <div class="relative column">
+              <div class="timeline-number circle box-shadow column">
+                <p>2</p>
+              </div>
+            </div>
+            <div class="timeline-details column">
+              <div class="timeline-box box-shadow">
+                <p>{Staff Name}: Ok. This and this is what needs to be done</p>
+                <p class="timeline-time">4:05PM Friday, January 4th, 2020</p>
+              </div>
+              <div class="timeline-box box-shadow">
+                <p>{Staff Name}: Blablabla</p>
+                <p class="timeline-time">4:05PM Friday, January 4th, 2020</p>
+              </div>
+              <div class="timeline-box box-shadow">
+                <p>{Staff Name}: Yeah what will that cost?</p>
+                <p class="timeline-time">4:05PM Friday, January 4th, 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item row">
+            <div class="relative column">
+              <div class="timeline-number circle box-shadow column">
+                <p>3</p>
+              </div>
+            </div>
+            <div class="timeline-details column">
+              <div class="timeline-box box-shadow">
+                <p>{Staff Name}: For this we will need this and that</p>
+                <p class="timeline-time">4:30PM Friday, January 4th, 2020</p>
+              </div>
+              <div class="timeline-box box-shadow">
+                <p>{Staff Name}: Ok</p>
+                <p class="timeline-time">4:45PM Friday, January 4th, 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item row">
+            <div class="relative column">
+              <div class="timeline-number circle box-shadow column">
+                <p>4</p>
+              </div>
+            </div>
+            <div class="timeline-details column">
+              <div class="timeline-box box-shadow">
+                <p>{Staff Name}: Ok... The work is done</p>
+                <p class="timeline-time">8:30PM Friday, January 4th, 2020</p>
+              </div>
+              <div class="timeline-box box-shadow">
+                <p>{Staff Name}: Good</p>
+                <p class="timeline-time">9:00PM Friday, January 4th, 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item cover row">
+            <div class="timeline-number finish-circle circle box-shadow column">
+              <p class="finish-text"><span>F</span>inish</p>
+            </div>
+            <div class="timeline-details column">
+              <div class="timeline-box box-shadow">
+                <p>
+                  {Staff Name}: The work is completed. {Client Name} is Ok with
+                  the work.
+                </p>
+                <p class="timeline-time">8:00 PM Saturday, January 5th, 2020</p>
+              </div>
+              <div class="timeline-box box-shadow">
+                <p>{Staff Name}: Good job</p>
+                <p class="timeline-time">8:05 PM Saturday, January 5th, 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-form cover column">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Type a comment"
+            ></textarea>
+            <div class="form-btn row">
+              <button>Mark Resolved</button>
+              <button>Send Comment</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

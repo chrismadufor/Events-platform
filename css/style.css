@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-family: "Source Sans Pro", "rubik";
+  font-family: "rubik";
   box-sizing: border-box;
 }
 * {
@@ -19,7 +19,7 @@ button {
 }
 input,
 textarea {
-  font-family: "source sans pro", "rubik";
+  font-family: "rubik";
 }
 a {
   text-decoration: none;
@@ -319,6 +319,12 @@ h3 {
 /* General Stylees found in all pages. 
 Main houses everything asides the side-bar
 Main-wrapper is the container for content in the main box ensuring that a limit is set to prevent content from spanning entire screen */
+
+.index-page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .main {
   display: flex;
   flex-direction: column;
@@ -1207,7 +1213,9 @@ p.finish-text {
   h4 {
     font-size: 16px;
   }
-
+  .index-page-container {
+    padding-top: 50px;
+  }
   .container {
     align-items: flex-start;
   }
